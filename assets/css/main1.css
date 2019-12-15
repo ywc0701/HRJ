@@ -2267,7 +2267,7 @@ input, select, textarea {
 
 		ul.icons li {
 			display: inline-block;
-			padding: 0 1em 0 0;
+			padding: 0 3em 0 0;
 		}
 
 			ul.icons li:last-child {
@@ -3376,7 +3376,7 @@ input, select, textarea {
 		}
 
 		#header .icons {
-			text-align: right;
+			text-align: left;
 		}
 
 		@media screen and (max-width: 1680px) {
@@ -3400,9 +3400,9 @@ input, select, textarea {
 
 				#header .icons {
 					height: 5em;
-					line-height: 5em;
+					line-height: 15em;
 					position: absolute;
-					right: -0.5em;
+					right: -0em;
 					top: 0;
 				}
 
