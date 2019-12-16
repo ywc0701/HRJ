@@ -4005,8 +4005,13 @@ p, ul, ol, dl, table {
 		background-attachment: scroll;
 		background-position: center center;
 		background-repeat: no-repeat;
-		background-size: cover;
+		-moz-background-size: cover;
+		-webkit-background-size: cover;
+		-ms-background-size: cover;
+		background-size: contain;
 		text-align: center;
+		background-color:#ceb252; 
+
 	}
 
 		#main > header h2 {
