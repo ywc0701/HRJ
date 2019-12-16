@@ -3167,7 +3167,7 @@ p, ul, ol, dl, table {
 		height: 1em;
 		left: 0;
 		line-height: 3em;
-		
+		padding: 0em 0em 2.5em 0em;
 		
 	}
 
@@ -3251,7 +3251,7 @@ p, ul, ol, dl, table {
 							@media screen and (max-width: 736px) {
 
 								#header nav > ul > li > a.menuToggle {
-									padding: 0 1.5em;
+									padding: 0 4em;
 								}
 
 									#header nav > ul > li > a.menuToggle span {
@@ -3281,7 +3281,9 @@ p, ul, ol, dl, table {
 				opacity: 0;
 			}
 
-
+		body.is-mobile #header  {
+		padding: 0em 0 0em 0 ;
+	}
 
 
 /* Main */
