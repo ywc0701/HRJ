@@ -3251,7 +3251,7 @@ p, ul, ol, dl, table {
 							@media screen and (max-width: 736px) {
 
 								#header nav > ul > li > a.menuToggle {
-									padding: 0 4em;
+									padding: 0 2em;
 								}
 
 									#header nav > ul > li > a.menuToggle span {
