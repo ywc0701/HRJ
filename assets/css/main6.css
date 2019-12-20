@@ -106,6 +106,20 @@ p, ul, ol, dl, table {
 			transition: none !important;
 		}
 
+		body.modal-active #wrapper {
+			-moz-filter: blur(8px);
+			-webkit-filter: blur(8px);
+			-ms-filter: blur(8px);
+			filter: blur(8px);
+		}
+
+			body.modal-active #wrapper:after {
+				pointer-events: auto;
+				opacity: 1;
+				visibility: visible;
+				z-index: 10003;
+			}
+
 	body, input, select, textarea {
 		color: #fff;
 		font-family: "Open Sans", Helvetica, sans-serif;
